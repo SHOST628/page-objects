@@ -56,9 +56,14 @@ Time Out Example
 Installation
 ------------
 
-    $ git clone https://github.com/defnngj/page-objects
-    $ cd page-objects
-    $ python setup.py install
+```shell
+$ git clone https://github.com/defnngj/page-objects
+
+$ cd page-objects
+
+$ python setup.py install
+
+```
 
 
 Project History
