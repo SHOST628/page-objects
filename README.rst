@@ -50,7 +50,7 @@ Time Out Example
     >>>
     >>> class BaiduPage(PageObject):
             search_input = PageElement(id_='kw', time_out=10)
-            search_button = PageElement(name='password', time_out=10)
+            search_button = PageElement(id_='su', time_out=10)
 
 
 Installation
