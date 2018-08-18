@@ -179,3 +179,10 @@ class TestRootURI:
         page = self.TestPage(webdriver=webdriver)
         page.get('/foo/bar')
         assert webdriver.get.called_once_with("/foo/bar")
+
+
+class TestTimeOut:
+
+    def test_setting_time_out(self):
+        elem = PageElement(css='foo', time_out=10)
+        assert elem.locator == (By.CSS_SELECTOR, 'foo')
