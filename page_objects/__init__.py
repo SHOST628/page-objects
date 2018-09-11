@@ -1,7 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from time import sleep
-from .page_webdriver import WebDriver
 
 
 # Map PageElement constructor arguments to webdriver locator enums
@@ -17,7 +16,7 @@ LOCATOR_LIST = {
 }
 
 
-class PageObject(WebDriver):
+class PageObject:
     """
     Page Object pattern.
     """

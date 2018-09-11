@@ -21,7 +21,7 @@ requires = ['selenium']
 
 setup(
     name='page-objects',
-    version='1.2.0',
+    version='1.3.0',
     description='Page Objects for Python',
     long_description=readme + '\n\n' + changes,
     author='Edward Easton',
