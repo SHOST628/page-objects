@@ -83,7 +83,7 @@ class PageElement(object):
         try:
             self.locator = (LOCATOR_LIST[k], v)
         except KeyError:
-            raise KeyError("Please use a locator：'id_'、'name'、'class'、'css'、'xpath'...")
+            raise KeyError("Please use a locator：'id_'、'name'、'class_'、'css'、'xpath'、'link_text'、'partial_link_text'.")
         self.has_context = bool(context)
 
     def wait(self, context):
