@@ -12,7 +12,7 @@ LOCATOR_LIST = {
     'link_text': By.LINK_TEXT,
     'partial_link_text': By.PARTIAL_LINK_TEXT,
     'tag': By.TAG_NAME,
-    'class': By.CLASS_NAME,
+    'class_': By.CLASS_NAME,
 }
 
 
