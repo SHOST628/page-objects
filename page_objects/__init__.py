@@ -11,8 +11,8 @@ LOCATOR_LIST = {
     'xpath': By.XPATH,
     'link_text': By.LINK_TEXT,
     'partial_link_text': By.PARTIAL_LINK_TEXT,
-    'tag': By.TAG_NAME,
-    'class_': By.CLASS_NAME,
+    'tag_name': By.TAG_NAME,
+    'class_name': By.CLASS_NAME,
 }
 
 
