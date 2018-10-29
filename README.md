@@ -13,6 +13,7 @@ libraries of code to test your sites.
 更新说明：
     原项目已经不再维护，我阅读了原项目代码，虽然只有100多行，但设计非常精妙。可惜缺少元素的等待，这将有助于定位元素的稳定性，所以，在原有项目的基础上增加的该功能。
 
+__为了项目更方便安装，已经提交python仓库，新的地址：__ https://github.com/defnngj/selenium_page_objects
 
 #### Installation
 ------------
